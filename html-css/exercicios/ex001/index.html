@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="png.ico" type="image/x-icon">
+    <title>Minhas lições</title>
+
+</head>
+<body>
+    <h1>Paragrafos e quebra de linhas</h1>
+    <p>Para quebra de linha, utilize br que... <br> voce quebrará a linha</p>
+    <p>caso voce queira um paragrafo, utilize o p </p>
+    <hr> <!--fim paragrafos-->
+
+    <h1>Simbolos e emojis</h1>
+    <p>
+        &reg;
+        &copy;
+        &trade;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        ... <br>
+        &#x1f596;
+    </p>
+    <hr> <!--fim simbolos-->
+    <h1>Imagens</h1>
+    <p> Imagem Local </p>
+    <img src="img-modal.png" alt="myImage">  <!--use 'ctrl + space' between " to find a img into folder -->
+     <p> Img link</p>
+     <img src="https://avatars.githubusercontent.com/u/8683378?v=4" alt="javascript">
+     <hr>
+     <h1>Entendendo Portugal</h1>
+     <h2>Introducao</h2>
+     <h3>metodologia de investigacao</h3>
+     <h4>etapas de investigacao</h4>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam deserunt accusamus, optio magni culpa magnam saepe reprehenderit, blanditiis molestiae sunt quo, nulla quibusdam maxime earum distinctio aut laborum consequatur tenetur.</p> <!--if yout sentence starts with "Lorem" the Visual Studio autocomplete the rest of text for you-->
+
+     <hr>
+
+     <h1>Principais formatacao</h1>
+     <h2>Negrito / Destaque</h2>
+     <p>Se usarmos "b" vira <b>negrito</b> porem tambem podemos usar <strong>strong</strong> </p>
+     <p>para usar <i>italico</i> use o i</p>
+     <p>porem podemos fazer <em>desta forma tb</em> usando "em"</p>
+     <p>Criando texto marcado <mark style="background-color:brown">MARK</mark></p>
+     <p>texto <del>excluido</del></p>
+     <p>matemagica x<sub>20</sub>+3 + H <sub>2</sub> O</p>
+     <p>aqui voce pode citar as <q>coisas dando sentido</q> para elas</p>
+    <h2>Criando uma citação em bloco</h2>
+    <p>Todo este texto abaixo esta dentro de um blockquote, e esta sendo citado um link dentro dele</p>
+    <blockquote cite="https://www.lipsum.com/">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quos! Tempore autem ipsum repellendus tempora esse aut, quos ut magnam incidunt non deleniti eligendi distinctio, dignissimos, perferendis et est sed.
+    </blockquote>
+
+    <h2>Abreviaçoes</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>...</p>
+
+
+     <hr><!--fim das Principais formatacoes-->
+
+     <h1>Código-fonte</h1>
+    <p>O Comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num %2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR)
+            print('Fim do programa')
+        </code>
+    </pre>
+    
+    <hr>
+
+    <h1>Criando uma lista</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar Café</li>
+        <li>Escovar os dentes</li>
+        <li>...</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square"> <!-- you could use disc, circle and square -->
+        <li>numero 1</li>
+        <li>numero 2</li>
+        <li>numero 3</li>
+    </ul>
+
+    <h2>Listas dentro de listas</h2>
+    <ol>
+        <li>My first list</li>
+        <ol type="A">
+            <li>something here</li>
+            <li>something here too</li>
+        </ol>
+        <li>My second list</li>
+        <ol type="A" start="3">
+            <li>something here again</li>
+            <li>makeup....</li>
+        </ol>
+    </ol>
+
+    <h2>Listas de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site</dd>
+    </dl>
+
+    <hr> <!--fim das listas-->
+
+    <h1>Trabalhando com links</h1>
+    <p>Você pode acessar o meu repositório público do <a href="https://github.com/greegblack" target="_blank" rel="external">GitHub</a></p>
+
+    <h2>Links internos</h2>
+    <p>vá para a segunda página clicando <a href="pag002.html" rel="next">AQUI</a></p>
+
+    <p>para que o mecanismo de busca nao pequise sobre algo duvidoso na minha page use o 'nofollow' <a href="https://fakenews.com/" target="_blank" rel="nofollow">site fake news</a></p>
+
+
+    <h2>Links para downloads internos</h2>
+    <ul>
+        <li> <!-- ############# NAO FUNCIONOU ISSO AQUI ############# -->
+             Para baixar cliquei aqui: <a href="exLinks/filesDownload/novembro_negro.pdf" download="novembro_negro.pdf" type="application/zip">PDF NF</a>
+        </li>
+    </ul>
+
+
+
+    <hr> <!--fim da Trabalhando com links-->
+
+    <h1>MEU PRIMEIRO DESAFIO</h1>
+    <p>Clique <a href="desafio001.html" target="_blank" rel="_self">aqui</a> </p>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente</p>
+
+    <picture> <!-- R E S P O N S I V E -->
+        <source media="(max-width: 700px)" srcset="exLinks/pasta/small.png"> <!--a ordem influencia!!!-->
+        <source media="(max-width: 1500px)" srcset="exLinks/pasta/normal.png">
+        <img src="exLinks/pasta/big.png" alt="image flexivel">
+
+    </picture>
+
+    <hr> <!-- fim da imagem dinamica -->
+    
+    <h1>Mídias em HTML5</h1>
+
+    <p>audios aqui</p>
+    <audio src="exLinks/pasta/hahaha_maquira_hahaha.ogg" controls ></audio>
+
+    <p>você pode criar algo mais seguro no sentido de, garantido que irá abrir em um navegador uzando 'audio' </p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="exLinks/pasta/hahaha_maquira_hahaha.ogg" type="audio/ogg">
+        <source src="exLinks/pasta/hahaha_maquira_hahaha.mp3" type="audio/mpeg">
+        <source src="exLinks/pasta/hahaha_maquira_hahaha.wav" type="audio/wav">
+        <p>seu navegador nao suporta isso</p><!--caso nenhum dos videos seja aceito pelo navegador, esta mensagem aparecerá-->
+    </audio>
+    <!--obviamente, possuo apenas um desses 3 audios acima, mas a ideia aqui é ter os 3-->
+    
+    <hr>
+
+    <h1> Vídeos com HTML5 </h1>
+    <h3>Inserindo vídeos hospedados localmente</h3>
+    <video controls width="1000" poster="exLinks/pasta/cover-videos.jpg"> <!--isso é uma merda, porque todos os vídeos terão de ser carregados-->
+        <source src="exLinks/pasta/counter-strike-greg.mp4" type="video/mp4">
+        <source src="exLinks/pasta/counter-strike-greg.m4v" type="video/mp4">
+        <source src="exLinks/pasta/counter-strike-greg.webm" type="video/webm">
+        <source src="exLinks/pasta/counter-strike-greg.ogv" type="video/ogg">
+        <p>seu navegador é bosta</p>
+    </video>
+
+    <h3>Inserindo vídeos do Youtube</h3>   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <hr> <!--fim dos Vídeos com HTML5-->
+
+    <h1>MEU SEGUNDO DESAFIO</h1>
+    
+    <h1> Vídeos legais para assistir </h1>
+    <br>
+    <a href="desafio002.html">
+        <img src="exLinks/pasta/cover-videos.jpg" width="250" alt="video bacaninha">
+    </a>
+    <a href="desafio002.html">
+        <img src="exLinks/pasta/cover-videos.jpg" width="250" alt="video bacaninha">
+    </a>
+    <br>
+    <a href="desafio002.html">
+        <img src="exLinks/pasta/cover-videos.jpg" width="250" alt="video bacaninha">
+    </a>
+    <a href="desafio002.html">
+        <img src="exLinks/pasta/cover-videos.jpg" width="250" alt="video bacaninha">
+    </a>
+
+
+
+
+
+
+
+</body>
+</html>

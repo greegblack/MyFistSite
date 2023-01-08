@@ -1,0 +1,66 @@
+:root{
+    --cor0: #ebe5c5;
+}
+
+body{
+    background-color: rgb(198, 244, 255);
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+/* H E A D E R */
+
+header{
+    background-image: linear-gradient(rgb(0, 204, 255), rgb(113, 227, 255));
+    padding: 20px;
+    text-align: center;
+}
+
+header > section{
+    padding: 30px;
+}
+  
+nav{
+    text-align: left;
+}
+
+nav > a{
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px ;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* M A I N */
+
+main{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+p > a{
+    color: rgb(10, 70, 70);
+    padding: 2px;
+}
+
+main > img{
+    width: 100%;
+}
+
+
+
+
+main > h3{
+    background-image: linear-gradient(to right, rgb(0, 217, 255) , rgba(0, 217, 255, 0));
+}
